@@ -1,3 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>forms</title>
+  </head>
+  <body>
+    viewform?usp=pp_url&
+    entry.1577887842=garbagename&
+    entry.463428234=garbageq1&
+    entry.1688791464=garbageq2&
+    entry.1784171677=garbageq3&
+    entry.481915184=garbageq31&
+    entry.1224803740=garbageq4&
+    entry.467731760=garbageq5
+    <form id="gform" name="gform" target="hidden_iframe"
+    onsubmit="submittedvalue=true;"
+    action="https://docs.google.com/forms/d/e/1FAIpQLSfZ2DxUnDB-UcEO69HDKEjRgYNq4GFaVMZilW7TZTG2bqsO9A/formResponse?">
+      <label for="entry.1577887842">Name</label><br>
+      <input type="text" name="entry.1577887842" id="entry.1577887842"><br>
+
+      <label for="entry.463428234">Q1</label><br>
+      <input type="text" name="entry.463428234" id="entry.463428234"><br>
+
+      <label for="entry.1688791464">Q2</label><br>
+      <input type="text" name="entry.1688791464" id="entry.1688791464"><br>
+
+      <label for="entry.1784171677">Q3</label><br>
+      <input type="text" name="entry.1784171677" id="entry.1784171677"><br>
+
+      <label for="entry.481915184">Q31</label><br>
+      <input type="text" name="entry.481915184" id="entry.481915184"><br>
+
+      <label for="entry.1224803740">Q4</label><br>
+      <input type="text" name="entry.1224803740" id="entry.1224803740"><br>
+
+      <label for="entry.467731760">Q5</label><br>
+      <input type="text" name="entry.467731760" id="entry.467731760"><br>
+
+      <input type="submit" name="" value="submit"><br>
+    </form>
+
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted){}"></iframe>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script type="text/javascript">
+  var submitted = false;
+</script>
+<!--
+<script type="text/javascript">
+  $('#gform').on('submit', function(e){
+    $('#gform *').fadeOut(2000);
+    $('#gform').prepend('Your submission has been noted. Thank you.');
+  }
+-->
+  );
+</script>
+  </body>
+</html>
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/skiquiz/hunt/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
