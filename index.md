@@ -5,14 +5,6 @@
     <title>forms</title>
   </head>
   <body>
-    viewform?usp=pp_url&
-    entry.1577887842=garbagename&
-    entry.463428234=garbageq1&
-    entry.1688791464=garbageq2&
-    entry.1784171677=garbageq3&
-    entry.481915184=garbageq31&
-    entry.1224803740=garbageq4&
-    entry.467731760=garbageq5
     <form id="gform" name="gform" target="hidden_iframe"
     onsubmit="submittedvalue=true;"
     action="https://docs.google.com/forms/d/e/1FAIpQLSfZ2DxUnDB-UcEO69HDKEjRgYNq4GFaVMZilW7TZTG2bqsO9A/formResponse?">
