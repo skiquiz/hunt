@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>forms</title>
-  </head>
-  <body>
-    <form id="gform" name="gform" target="hidden_iframe"
+## Skiquiz - fyll i ledtrådarna här:
+<form id="gform" name="gform" target="hidden_iframe"
     onsubmit="submittedvalue=true;"
     action="https://docs.google.com/forms/d/e/1FAIpQLSfZ2DxUnDB-UcEO69HDKEjRgYNq4GFaVMZilW7TZTG2bqsO9A/formResponse?">
       <label for="entry.1577887842">Name</label><br>
@@ -41,19 +35,6 @@ style="display:none;" onload="if(submitted){}"></iframe>
 <script type="text/javascript">
   var submitted = false;
 </script>
-<!--
-<script type="text/javascript">
-  $('#gform').on('submit', function(e){
-    $('#gform *').fadeOut(2000);
-    $('#gform').prepend('Your submission has been noted. Thank you.');
-  }
--->
-  );
-</script>
-  </body>
-</html>
-
-
 
 ## Welcome to GitHub Pages
 
@@ -82,7 +63,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
