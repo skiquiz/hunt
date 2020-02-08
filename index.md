@@ -4,8 +4,8 @@
       <label for="entry.1577887842">Name</label><br>
       <input type="text" name="entry.1577887842" id="entry.1577887842"><br>
 
-      <label for="entry.463428234">Q1</label><br>
-      <input type="text" name="entry.463428234" id="entry.463428234"><br>
+      <label for="entry.463428234">Q1number</label><br>
+      <input type="number" name="entry.463428234" id="entry.463428234"><br>
 
       <label for="entry.1688791464">Q2</label><br>
       <input type="text" name="entry.1688791464" id="entry.1688791464"><br>
