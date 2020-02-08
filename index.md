@@ -5,7 +5,7 @@
       <input type="button" name="" value="Spara ifylda svar" onclick="msg()"><br>
       
       <label for="entry.1577887842">Ditt LagNamn</label><br>
-      <input inputmode="numeric" pattern="[0-9]*" type="text"" name="entry.1577887842" id="entry.1577887842"><br>
+      <input type="text" name="entry.1577887842" id="entry.1577887842"><br>
 
       <label for="entry.463428234">Q1</label><br>
       <input inputmode="numeric" pattern="[0-9]*" type="text" name="entry.463428234" id="entry.463428234"><br>
@@ -20,7 +20,7 @@
       <input inputmode="numeric" pattern="[0-9]*" type="text" name="entry.481915184" id="entry.481915184"><br>
 
       <label for="entry.1224803740">Q4</label><br>
-      <input inputmode="numeric" pattern="[0-9]*" type="text"" name="entry.1224803740" id="entry.1224803740"><br>
+      <input inputmode="numeric" pattern="[0-9]*" type="text" name="entry.1224803740" id="entry.1224803740"><br>
 
       <label for="entry.467731760">Q5</label><br>
       <input inputmode="numeric" pattern="[0-9]*" type="text" name="entry.467731760" id="entry.467731760"><br>
