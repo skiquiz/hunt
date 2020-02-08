@@ -1,6 +1,9 @@
 <form id="gform" name="gform" target="hidden_iframe"
     onsubmit="submittedvalue=true;"
     action="https://docs.google.com/forms/d/e/1FAIpQLSfZ2DxUnDB-UcEO69HDKEjRgYNq4GFaVMZilW7TZTG2bqsO9A/formResponse?">
+   
+      <input type="button" name="" value="Spara ifylda svar" onclick="msg()"><br>
+      
       <label for="entry.1577887842">Name</label><br>
       <input type="text" name="entry.1577887842" id="entry.1577887842"><br>
 
@@ -23,7 +26,7 @@
       <input type="text" name="entry.467731760" id="entry.467731760"><br>
 
       input type="submit" name="" value="submit"
-      <input type="button" name="" value="submit"><br>
+
     </form>
 
 <iframe name="hidden_iframe" id="hidden_iframe"
@@ -34,6 +37,11 @@ style="display:none;" onload="if(submitted){}"></iframe>
   crossorigin="anonymous"></script>
 <script type="text/javascript">
   var submitted = false;
+</script>
+<script>
+function msg() {
+  alert("Sparat till google, hitta en till!");
+}
 </script>
 <!--
 ## Welcome to GitHub Pages
