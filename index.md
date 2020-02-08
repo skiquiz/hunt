@@ -24,7 +24,8 @@
 
       <label for="entry.467731760">Q5</label><br>
       <input inputmode="numeric" pattern="[0-9]*" type="text" name="entry.467731760" id="entry.467731760"><br>
-
+    
+      <input type="button" name="" value="Spara ifylda svar" onclick="msg()"><br>
     </form>
 
 <iframe name="hidden_iframe" id="hidden_iframe"
