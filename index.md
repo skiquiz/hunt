@@ -7,8 +7,8 @@
       <label for="entry.463428234">Q1number</label><br>
       <input type="number" name="entry.463428234" id="entry.463428234"><br>
 
-      <label for="entry.1688791464">Q2</label><br>
-      <input type="text" name="entry.1688791464" id="entry.1688791464"><br>
+      <label for="entry.1688791464">Q2numeric</label><br>
+      <input inputmode="numeric" pattern="[0-9]*" type="text" name="entry.1688791464" id="entry.1688791464"><br>
 
       <label for="entry.1784171677">Q3</label><br>
       <input type="text" name="entry.1784171677" id="entry.1784171677"><br>
@@ -22,7 +22,8 @@
       <label for="entry.467731760">Q5</label><br>
       <input type="text" name="entry.467731760" id="entry.467731760"><br>
 
-      <input type="submit" name="" value="submit"><br>
+      input type="submit" name="" value="submit"
+      <input type="button" name="" value="submit"><br>
     </form>
 
 <iframe name="hidden_iframe" id="hidden_iframe"
