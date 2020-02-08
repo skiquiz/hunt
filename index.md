@@ -4,28 +4,26 @@
    
       <input type="button" name="" value="Spara ifylda svar" onclick="msg()"><br>
       
-      <label for="entry.1577887842">Name</label><br>
-      <input type="text" name="entry.1577887842" id="entry.1577887842"><br>
+      <label for="entry.1577887842">Ditt LagNamn</label><br>
+      <input inputmode="numeric" pattern="[0-9]*" type="text"" name="entry.1577887842" id="entry.1577887842"><br>
 
-      <label for="entry.463428234">Q1number</label><br>
-      <input type="number" name="entry.463428234" id="entry.463428234"><br>
+      <label for="entry.463428234">Q1</label><br>
+      <input inputmode="numeric" pattern="[0-9]*" type="text" name="entry.463428234" id="entry.463428234"><br>
 
-      <label for="entry.1688791464">Q2numeric</label><br>
+      <label for="entry.1688791464">Q2</label><br>
       <input inputmode="numeric" pattern="[0-9]*" type="text" name="entry.1688791464" id="entry.1688791464"><br>
 
       <label for="entry.1784171677">Q3</label><br>
-      <input type="text" name="entry.1784171677" id="entry.1784171677"><br>
+      <input inputmode="numeric" pattern="[0-9]*" type="text" name="entry.1784171677" id="entry.1784171677"><br>
 
       <label for="entry.481915184">Q31</label><br>
-      <input type="text" name="entry.481915184" id="entry.481915184"><br>
+      <input inputmode="numeric" pattern="[0-9]*" type="text" name="entry.481915184" id="entry.481915184"><br>
 
       <label for="entry.1224803740">Q4</label><br>
-      <input type="text" name="entry.1224803740" id="entry.1224803740"><br>
+      <input inputmode="numeric" pattern="[0-9]*" type="text"" name="entry.1224803740" id="entry.1224803740"><br>
 
       <label for="entry.467731760">Q5</label><br>
-      <input type="text" name="entry.467731760" id="entry.467731760"><br>
-
-      input type="submit" name="" value="submit"
+      <input inputmode="numeric" pattern="[0-9]*" type="text" name="entry.467731760" id="entry.467731760"><br>
 
     </form>
 
