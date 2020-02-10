@@ -3,6 +3,8 @@
     action="https://docs.google.com/forms/d/e/1FAIpQLSfZ2DxUnDB-UcEO69HDKEjRgYNq4GFaVMZilW7TZTG2bqsO9A/formResponse?">
    
       <input type="button" name="" value="Spara och uppdatera svar" onclick="msg()"><br>
+      <input type="button" name="" value="Spara utan msg"><br>
+      <input type="submit" name="" value="submit">
       
       <label for="entry.1577887842">Ditt LagNamn</label><br>
       <input type="text" name="entry.1577887842" id="entry.1577887842"><br>
