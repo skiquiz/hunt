@@ -2,9 +2,11 @@
     onsubmit="submittedvalue=true;"
     action="https://docs.google.com/forms/d/e/1FAIpQLSfZ2DxUnDB-UcEO69HDKEjRgYNq4GFaVMZilW7TZTG2bqsO9A/formResponse?">
    
-      <input type="button" name="" value="Spara och uppdatera svar" onclick="msg()"><br>
-      <input type="button" name="" value="Spara utan msg"><br>
-      <input type="submit" name="" value="submit">
+      <!-- <input type="button" name="" value="Spara och uppdatera svar" onclick="msg()"><br> -->
+      <!-- <input type="submit" name="" value="submit"> -->
+      <!-- <input type="button" name="" value="Spara utan msg"><br> -->
+      <input type="submit" name="" value="Spara och uppdatera svar">
+
       
       <label for="entry.1577887842">Ditt LagNamn</label><br>
       <input type="text" name="entry.1577887842" id="entry.1577887842"><br>
@@ -27,7 +29,8 @@
       <label for="entry.467731760">Q5</label><br>
       <input inputmode="numeric" pattern="[0-9]*" type="text" name="entry.467731760" id="entry.467731760"><br>
     
-      <input type="button" name="" value="Spara och uppdatera svar" onclick="msg()"><br>
+      <!-- <input type="button" name="" value="Spara och uppdatera svar" onclick="msg()"><br> -->
+      <input type="submit" name="" value="Spara och uppdatera svar">
     </form>
 
 <iframe name="hidden_iframe" id="hidden_iframe"
